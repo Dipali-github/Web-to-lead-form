@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact QGO Aviation to book your luxury travel packages including trips to London, Dubai, Switzerland, and more.">
+  <title>QGO Aviation Travel Inquiry Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    img.logo {
+      max-width: 200px;
+      height: auto;
+      display: block;
+      margin-bottom: 20px;
+    }
+    form {
+      max-width: 600px;
+    }
+    label {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- QGO Group Logo -->
+  <img src="https://cdn.prod.website-files.com/663b77aab54e0ed469bc54b6/67f3ad559bd71a2b8f97267b_Untitled%20design-p-500.png" alt="QGO Group Logo" class="logo">
+
+  <h1>QGO Aviation - Travel Inquiry Form</h1>
+
+  <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DKd000005aTu6" method="POST">
+
+    <!-- Hidden Inputs -->
+    <input type="hidden" name="oid" value="00DKd000005aTu6">
+    <input type="hidden" name="retURL" value="http://www.qgogroup.com">
+    <input type="hidden" name="lead_source" value="Website">
+
+    <!-- Required Fields -->
+    <label for="first_name">First Name*</label><br>
+    <input id="first_name" name="first_name" type="text" maxlength="40" required><br><br>
+
+    <label for="last_name">Last Name*</label><br>
+    <input id="last_name" name="last_name" type="text" maxlength="80" required><br><br>
+
+    <label for="phone">Phone*</label><br>
+    <input id="phone" name="phone" type="text" maxlength="40" required><br><br>
+
+    <label for="email">Email*</label><br>
+    <input id="email" name="email" type="email" maxlength="80" required><br><br>
+
+    <!-- Optional Fields -->
+    <label for="company">Company</label><br>
+    <input id="company" name="company" type="text" maxlength="40"><br><br>
+
+    <label for="city">City</label><br>
+    <input id="city" name="city" type="text" maxlength="40"><br><br>
+
+    <label for="state">State/Province</label><br>
+    <input id="state" name="state" type="text" maxlength="20"><br><br>
+
+    <label for="country">Country</label><br>
+    <input id="country" name="country" type="text" maxlength="40"><br><br>
+
+    <label for="00NKd00000MPTsi">Region</label><br>
+    <select id="00NKd00000MPTsi" name="00NKd00000MPTsi" title="Region">
+      <option value="">--None--</option>
+      <option value="West">West</option>
+      <option value="Central">Central</option>
+      <option value="East">East</option>
+    </select><br><br>
+
+    <label for="00NKd00000vDy78">Travel Purpose</label><br>
+    <textarea id="00NKd00000vDy78" name="00NKd00000vDy78" rows="3" wrap="soft"></textarea><br><br>
+
+    <label for="00NKd00000vDyBy">Travel Packages*</label><br>
+    <select id="00NKd00000vDyBy" name="00NKd00000vDyBy" title="Travel Packages" required>
+      <option value="">--None--</option>
+      <option value="London Family Holiday">London Family Holiday</option>
+      <option value="Dubai City Adventure">Dubai City Adventure</option>
+      <option value="Swiss Alps Explorer">Swiss Alps Explorer</option>
+      <option value="Maldives Honeymoon Escape">Maldives Honeymoon Escape</option>
+      <option value="European Luxury Getaway">European Luxury Getaway</option>
+    </select><br><br>
+
+    <label for="00NKd00000vDy7D">Departure Date</label><br>
+    <input id="00NKd00000vDy7D" name="00NKd00000vDy7D" type="text" placeholder="MM/DD/YYYY"><br><br>
+
+    <label for="00NKd00000vDyB5">Passport Number</label><br>
+    <input id="00NKd00000vDyB5" name="00NKd00000vDyB5" type="text" maxlength="50"><br><br>
+
+    <label for="00NKd00000vDyBA">Kuwait ID*</label><br>
+    <input id="00NKd00000vDyBA" name="00NKd00000vDyBA" type="text" maxlength="50" required><br><br>
+
+    <input type="submit" name="submit" value="Submit">
+  </form>
+
+</body>
+</html>
